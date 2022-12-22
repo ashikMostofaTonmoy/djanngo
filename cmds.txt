@@ -13,6 +13,10 @@ python manage.py startapp "app_name"
 # create views in 
 / app_name > views
 
-# add page views to urls in 
+# add page views to urls in (bad practice)
 /project-name > urls > urlpatterns
-** can set different function or class  for different path
+** can set different function or class name when import. like 'from .. import .. as ..' for different path
+
+# (best practice)alternatively can create url file in app than import that url file to main urls. Examples:
+- create file - // app_name > urls.py
+- add 
