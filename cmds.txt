@@ -1,8 +1,15 @@
 # for creatinfg project
-django-admin startproject "project-name"
+django-admin startproject "project_name"
 
 # running server
 python manage.py runserver
 
 # creating a app within project
 python manage.py startapp "app_name"
+
+# add app to /project-name > settings > INSTALLED_APPS
+
+# create views in / app_name > views
+
+# add page views to urls in /project-name > urls > urlpatterns
+
