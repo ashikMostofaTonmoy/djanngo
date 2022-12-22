@@ -1,0 +1,8 @@
+# for creatinfg project
+django-admin startproject "project-name"
+
+# running server
+python manage.py runserver
+
+# creating a app within project
+python manage.py startapp "app_name"
