@@ -20,3 +20,12 @@ python manage.py startapp "app_name"
 # (best practice)alternatively can create url file in app than import that url file to main urls. Examples:
 - create file - // app_name > urls.py
 - add 
+
+# create templete folder for templates
+/project-name > templates
+
+# define template directory to 
+/project-name > settings
+
+also add template directory in 
+/project-name > settings > TEMPLATES > DIRS

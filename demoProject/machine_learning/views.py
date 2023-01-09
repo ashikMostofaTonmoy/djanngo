@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 
 def machine(request):
-    return HttpResponse(" yeee! kaj hoise")
+    return render(request,'machinelearning.html')
 
 def deepmachine(request):
     return HttpResponse(" <h1>2nd test is done! </h1>")
